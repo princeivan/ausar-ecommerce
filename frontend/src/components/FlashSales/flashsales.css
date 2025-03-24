@@ -47,3 +47,21 @@
     gap: 8px;
   }
 }
+@media screen and (max-width: 500px) {
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+  }
+  .section-header-left {
+    display: flex;
+  }
+  .section-header-left h3 {
+    font-size: 16px;
+  }
+  .timer {
+    font-size: 14px;
+    color: red;
+    margin: auto 30px;
+  }
+}

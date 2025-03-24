@@ -45,5 +45,11 @@
 @media screen and (max-width: 768px) {
   .bottom-nav {
     display: flex;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .bottom-nav {
+    width: 400px;
   }
 }

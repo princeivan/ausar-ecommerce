@@ -1,61 +1,69 @@
-.featured-section{
-    max-width: 1200px;
-    margin: 20px ;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
+.featured-section {
+  max-width: 1200px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
 }
-.featured-grid-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+.featured-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
-.feature-category-card{
-    background: #f8f9fa;
-    padding: 30px;
-    border-radius: 12px;
-    text-align: center;
-    transition: transform 0.3s ease;
+.feature-category-card {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
 }
-.feature-category-card:hover{
+.feature-category-card:hover {
   transform: translate(-5px);
 }
-.women-collections{
-    grid-column: span2;
-    background: #fff0f6;
-    padding: 2px;
-    text-align: align;
+.women-collections {
+  grid-column: span2;
+  background: #fff0f6;
+  padding: 2px;
+  text-align: align;
 }
 .sale-banner {
-    grid-column: 1 / -1;
-    background: #4a5568;
-    color: white;
-    padding: 60px 40px;
-    border-radius: 12px;
-    margin-top: 30px;
-    text-align: center;
+  grid-column: 1 / -1;
+  background: #4a5568;
+  color: white;
+  padding: 60px 40px;
+  border-radius: 12px;
+  margin-top: 30px;
+  text-align: center;
 }
 .badge {
-    display: inline-block;
-    padding: 8px 16px;
-    background: #ff6b6b;
-    color: white;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    margin-bottom: 15px;
+  display: inline-block;
+  padding: 8px 16px;
+  background: #ff6b6b;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
 }
 
 .btn {
-    display: inline-block;
-    padding: 12px 30px;
-    background: #2d3748;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    margin-top: 20px;
-    transition: background 0.3s ease;
+  display: inline-block;
+  padding: 12px 30px;
+  background: #2d3748;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 20px;
+  transition: background 0.3s ease;
 }
 
 .btn:hover {
-    background: #1a202c;
+  background: #1a202c;
+}
+@media screen and (max-width: 500px) {
+  .featured-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+    gap: 10px;
+  }
 }

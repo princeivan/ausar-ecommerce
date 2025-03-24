@@ -1,19 +1,41 @@
-.footer-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    background-image: url('../../assets/bg-boost-desktop.svg');
-    color: #fff;
-    margin: auto;
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  background-image: url("../../assets/bg-boost-desktop.svg");
+  color: #fff;
+  margin: auto;
 }
-.footer-logo-section{
-    margin-left: 50px;
-    padding: 10px;
-    gap: 10px;
+.footer-logo-section {
+  margin-left: 50px;
+  padding: 10px;
+  gap: 10px;
 }
-.footer-quicklink-section{
-    margin-right: 50px;
-    padding: 10px;
-    gap: 10px;
+.footer-quicklink-section {
+  margin-right: 50px;
+  padding: 10px;
+  gap: 10px;
+}
+@media screen and (max-width: 500px) {
+  .footer-section {
+    overflow: hidden;
+    width: 100%;
+  }
+  .footer-logo-section {
+    margin-left: 10px;
+    padding: 10px 5px;
+    gap: 2px;
+  }
+  .footer-quicklink-section {
+    margin-right: 10px;
+    padding: 10px 5px;
+    gap: 5px;
+  }
+  .footer-section h4 {
+    font-size: 12px;
+  }
+  .footer-section p {
+    font-size: 10px;
+  }
 }
