@@ -1,0 +1,27 @@
+.explore-products{
+    max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.next-arrows{
+    display: flex;
+    gap: 15px;
+}
+.arrow{
+    background-color: rgb(234, 238, 238);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.arrow:hover{
+    background-color: rgb(68, 68, 92);
+}

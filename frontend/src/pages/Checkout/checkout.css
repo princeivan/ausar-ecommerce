@@ -1,0 +1,142 @@
+.checkout {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+.checkout-info {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 30px;
+}
+.checkout-delivery-information {
+  padding: 10px;
+}
+.checkout-delivery-information input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.checkout-right-section {
+  margin: 20px;
+  gap: 10px;
+}
+.cart-item-remove {
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 18px;
+}
+.cart-item-remove:hover {
+  color: #fff;
+  background-color: red;
+}
+
+.checkout-subtotal {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: auto;
+}
+.checkout-subtotal h5 {
+  font-size: 16px;
+  color: red;
+}
+.checkout hr {
+  width: 100%;
+  border: 1px solid #af9f9f;
+  background-color: #af9f9f;
+}
+.checkout-shipping {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.checkout-shipping h5 {
+  font-size: 16px;
+}
+.checkout-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.checkout-total h5 {
+  font-size: 16px;
+}
+.payment {
+  margin-top: 10px;
+}
+.payment-method {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  gap: 15px;
+}
+.payment h5 {
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+}
+.payment-method img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.checkout-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.checkout-item-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.cart-item-quantity input {
+  width: 30px;
+  align-content: center;
+  padding: 3px 0;
+}
+.place-order-button {
+  background-color: var(--color-danger);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  display: flex;
+  margin: 20px auto;
+}
+.payment-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+.payment-option.selected {
+  border-color: orange;
+}

@@ -1,0 +1,11 @@
+.best-selling{
+    align-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+}

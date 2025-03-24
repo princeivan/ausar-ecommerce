@@ -1,0 +1,23 @@
+.category-section{
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.category-grid{
+    display: flex;
+    gap: 60px;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: auto;
+}
+.category{
+    margin: 12px 0px;
+    padding: 30px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #0f0f0f;
+}
+.category:hover{
+    background: rgb(216, 55, 55);
+}
