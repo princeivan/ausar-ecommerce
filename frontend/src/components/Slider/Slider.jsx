@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { sliderData } from "./slider-data";
 import { useNavigate } from "react-router-dom";
-import './slider.css'
+import "./slider.css";
 
 const Slider = () => {
-    const navigate = useNavigate()
-    const [currentSlide, setCurrentSlide] = useState(0)
-    const slideLength = sliderData.length 
-    const autoScroll = true
+  const navigate = useNavigate();
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const slideLength = sliderData.length;
+  const autoScroll = true;
 
-    let slideInterval;
+  let slideInterval;
   const intervalTime = 5000;
 
   const prevSlide = () => {

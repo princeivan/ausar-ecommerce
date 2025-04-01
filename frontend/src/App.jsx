@@ -52,7 +52,7 @@ function App() {
             <Route path="/products/:id" element={<ProductDetail />} />
           </Route>
         </Routes>
-        <BottomNav />
+
         <Footer />
       </Router>
     </>

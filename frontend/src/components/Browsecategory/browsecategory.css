@@ -10,13 +10,21 @@
   justify-content: flex-start;
   padding: 20px;
   margin: auto;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
 }
 .category {
-  margin: 12px 0px;
-  padding: 30px 30px;
+  margin: 12px 10px;
+  padding: 50px 60px;
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid #0f0f0f;
+}
+.category-grid li {
+  color: #0f0f0f;
+  font-weight: 500;
+  font-size: 16px;
 }
 .category:hover {
   background: rgb(216, 55, 55);

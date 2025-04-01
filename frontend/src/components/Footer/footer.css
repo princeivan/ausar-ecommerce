@@ -1,41 +1,80 @@
 .footer-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: black;
   background-image: url("../../assets/bg-boost-desktop.svg");
   color: #fff;
+}
+.footer-content {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: auto;
+  padding: 20px;
 }
 .footer-logo-section {
-  margin-left: 50px;
   padding: 10px;
   gap: 10px;
 }
 .footer-quicklink-section {
-  margin-right: 50px;
   padding: 10px;
-  gap: 10px;
 }
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+.footer-section-input {
+  padding: 5px;
+  border-radius: 6px;
+  color: black;
+  font-weight: 400;
+  margin: 3px 0;
+}
+.support-section p {
+  margin: 3px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.footer-quicklink-section p {
+  margin: 2px 0;
+}
+.footer-quicklink-section p:hover {
+  cursor: pointer;
+  color: orangered;
+}
+.support-section .icon {
+  align-items: center;
+  padding: 2px;
+}
+.footer-icons svg {
+  color: inherit;
+}
+.footer-icons .fa-facebook {
+  color: #1877f2;
+}
+.footer-icons .fa-instagram {
+  color: #e4405f;
+}
+.footer-icons .fa-whatsapp {
+  color: #25d366;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content h4 {
+    font-size: 1.5rem;
+  }
+  .footer-content p {
+    font-size: 1.3rem;
+  }
+}
+
 @media screen and (max-width: 500px) {
-  .footer-section {
-    overflow: hidden;
-    width: 100%;
-  }
-  .footer-logo-section {
-    margin-left: 10px;
-    padding: 10px 5px;
-    gap: 2px;
-  }
-  .footer-quicklink-section {
-    margin-right: 10px;
-    padding: 10px 5px;
-    gap: 5px;
-  }
-  .footer-section h4 {
-    font-size: 12px;
-  }
-  .footer-section p {
-    font-size: 10px;
+  .footer-content {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
   }
 }

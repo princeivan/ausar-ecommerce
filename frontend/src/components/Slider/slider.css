@@ -99,7 +99,7 @@
   animation: span3 3s linear infinite;
 }
 
-.slider-content .span4:before {
+.content .span4:before {
   content: "";
   position: absolute;
   bottom: 0%;
